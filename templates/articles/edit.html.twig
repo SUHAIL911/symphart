@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Edit Article {% endblock %}
+
+{% block body %}  
+
+<pre style="width:450px; margin:30px auto;">
+    <h3> Adding New Article Section</h3>
+        {{form_start(form)}}
+        {{form_widget(form)}}
+        {{form_end(form)}}
+</pre>
+
+{% endblock %}
+
